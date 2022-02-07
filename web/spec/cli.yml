@@ -154,10 +154,10 @@ pages:
       ```
     examples:
       - name: `db remote set` command
-      sh: |
-        ```sh
-        supabase db remote set postgresql://postgres:[YOUR-PASSWORD]@db.azeazeiqsdiqswdsqdxc.supabase.co:5432/postgres
-        ```
+        sh: |
+          ```sh
+          supabase db remote set postgresql://postgres:[YOUR-PASSWORD]@db.azeazeiqsdiqswdsqdxc.supabase.co:5432/postgres
+          ```
 
   supabase db remote commit:
     description: |
