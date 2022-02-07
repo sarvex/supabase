@@ -23,16 +23,16 @@ info:
     Report issues to our [issue tracker](https://github.com/supabase/cli/issues).
   definition: spec/combined.json
   libraries:
-    - name: "sh"
-      id: "sh"
-      version: "0.0.1"
+    - name: 'sh'
+      id: 'sh'
+      version: '0.0.1'
   docs:
     path: reference/cli/
     sidebar:
-      - name: "About"
+      - name: 'About'
         items:
           - index
-      - name: "Command reference"
+      - name: 'Command reference'
         items:
           - supabase help
           - supabase init
@@ -48,7 +48,7 @@ info:
           - supabase db remote commit
           - supabase db push
           - supabase migration new
-      - name: "Config reference"
+      - name: 'Config reference'
         items:
           - Config reference
 
@@ -153,7 +153,7 @@ pages:
         supabase db remote set <remote database connection url>
       ```
     examples:
-      - name: `db remote set` command
+      - name: '`db remote set` command'
         sh: |
           ```sh
           supabase db remote set postgresql://postgres:[YOUR-PASSWORD]@db.azeazeiqsdiqswdsqdxc.supabase.co:5432/postgres
